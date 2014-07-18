@@ -1,0 +1,185 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	margin: 0;
+	background-color: #c1d0d5;
+}
+
+#container {
+	position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    height: 50%;
+	width: 75%;
+	text-align: center;
+}
+
+.utilityLinks {
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf) );
+	background:-moz-linear-gradient( center top, #ededed 5%, #dfdfdf 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf');
+	background-color:#ededed;
+	-webkit-border-top-left-radius:0px;
+	-moz-border-radius-topleft:0px;
+	border-top-left-radius:0px;
+	-webkit-border-top-right-radius:0px;
+	-moz-border-radius-topright:0px;
+	border-top-right-radius:0px;
+	-webkit-border-bottom-right-radius:0px;
+	-moz-border-radius-bottomright:0px;
+	border-bottom-right-radius:0px;
+	-webkit-border-bottom-left-radius:0px;
+	-moz-border-radius-bottomleft:0px;
+	border-bottom-left-radius:0px;
+	text-indent:0;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	color:#777777;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	font-style:normal;
+	height:40px;
+	line-height:40px;
+	width:95px;
+	text-decoration:none;
+	text-align:center;
+	text-shadow:1px 1px 0px #ffffff;
+}
+.utilityLinks:hover {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ededed) );
+	background:-moz-linear-gradient( center top, #dfdfdf 5%, #ededed 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#ededed');
+	background-color:#dfdfdf;
+}.utilityLinks:active {
+	position:relative;
+	top:1px;
+}
+
+.datagrid table { 
+	border-collapse: collapse; 
+	text-align: left; 
+	width: 100%; 
+} 
+.datagrid {
+	font: normal 12px/150% Arial, Helvetica, sans-serif; 
+	background: #fff; 
+	overflow: hidden; 
+	border: 1px solid #006699; 
+	-webkit-border-radius: 10px; 
+	-moz-border-radius: 10px; 
+	border-radius: 10px;
+	margin-bottom: 10px;
+}
+.datagrid table td, .datagrid table th { 
+	padding: 3px 10px; 
+}
+.datagrid table thead th {
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #116600), color-stop(1, #1F9E0B) );
+	background:-moz-linear-gradient( center top, #116600 5%, #1F9E0B 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#116600', endColorstr='#1F9E0B');
+	background-color:#116600; 
+	color:#FFFFFF; 
+	font-size: 15px; 
+	font-weight: bold; 
+} 
+.datagrid table thead th:first-child { 
+	border: none; 
+}
+.datagrid table tbody td { 
+	color: #00496B; 
+	border-left: 1px solid #E1EEF4;
+	font-size: 12px;
+	font-weight: normal; 
+}
+.datagrid table tbody .alt td { 
+	background: #E1EEF4; 
+	color: #00496B; 
+}
+.datagrid table tbody td:first-child { 
+	border-left: none; 
+}
+.datagrid table tbody tr:last-child td { 
+	border-bottom: none; 
+}
+.datagrid table tfoot td div { 
+	border-top: 1px solid #006699;
+	background: #E1EEF4;
+} 
+.datagrid table tfoot td { 
+	padding: 0; 
+	font-size: 12px 
+} 
+.datagrid table tfoot td div{ 
+	padding: 2px; 
+}
+.datagrid table tfoot td ul { 
+	margin: 0; 
+	padding:0; 
+	list-style: none; 
+	text-align: right; 
+}
+.datagrid table tfoot  li { 
+	display: inline; 
+}
+.datagrid table tfoot li a { 
+	text-decoration: none; 
+	display: inline-block;  
+	padding: 2px 8px; 
+	margin: 1px;
+	color: #FFFFFF;
+	border: 1px solid #000000;
+	-webkit-border-radius: 3px; 
+	-moz-border-radius: 3px; 
+	border-radius: 3px; 
+	background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #116600), color-stop(1, #1F9E0B) );
+	background:-moz-linear-gradient( center top, #116600 5%, #1F9E0B 100% );
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#116600', endColorstr='#1F9E0B');
+	background-color:#116600; 
+}
+.datagrid table tfoot ul.active, .datagrid table tfoot ul a:hover { 
+	text-decoration: none;
+	border-color: #006699; 
+	color: #FFFFFF; 
+	background: none; 
+	background-color:#00557F;
+}
+div.dhtmlx_window_active, div.dhx_modal_cover_dv { 
+	position: fixed !important; 
+}
+
+header {
+	background-color: #333333;
+	width: 100%;
+	height: 50px;
+	display: inline-block;
+}
+
+.main_title {
+	margin-top: 0;
+	padding-top: 5px;
+	margin-left: 10px;
+	color: #dadada;
+}
+
+.removeButton {
+	background-color: rgba(0, 0, 0, 0);
+	color: red;
+	font-weight: bold;
+	border: 0px;
+}
+
+.removeButton:hover {
+	background-color: rgba(155, 155, 155, 0.2);
+}
+
+.removeButton:active {
+	background-color: rgba(155, 155, 155, 0.6);
+	color: darkred;
+}
